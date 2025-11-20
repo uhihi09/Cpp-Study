@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build and run",
+      "type": "shell",
+      "command": "clang++",
+      "args": [
+        "-std=gnu++14",
+        "-g",
+        "${file}",
+        "-o",
+        "${workspaceFolder}/main"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "detail": "Build and run active C++ file",
+      "dependsOrder": "sequence",
+      "dependsOn": ["run program"]
+    },
+    {
+      "label": "run program",
+      "type": "shell",
+      "command": "${workspaceFolder}/main"
+    }
+  ]
+}
