@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-    // 작은 문자형
+    // 작은 문자형 근본적으로는 정수형으로 저장됨(아스키값)
     int a = 77;
     char b = 'a';
     // char b = "a"; -> 안되는 이유
