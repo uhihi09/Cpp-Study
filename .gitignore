@@ -1,2 +1,11 @@
-.vscode
-main.dSYM
+# macOS
+.DS_Store
+*.dSYM
+
+# VS Code
+.vscode/
+
+# 빌드 결과물
+main
+*.o
+*.out
