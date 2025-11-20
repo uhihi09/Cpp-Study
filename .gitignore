@@ -2,10 +2,11 @@
 .DS_Store
 *.dSYM
 
-# VS Code
-.vscode/
-
-# 빌드 결과물
-main
+# 빌드 산출물
 *.o
 *.out
+main
+*.exe
+
+# VS Code 설정
+.vscode/
